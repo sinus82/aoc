@@ -1,0 +1,12 @@
+a = (1,2,3)
+b = (1,)
+c = ('a',1, 2)
+d = (1)
+
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
