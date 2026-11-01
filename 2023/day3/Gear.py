@@ -1,5 +1,3 @@
-
-
 from pathlib import Path
 
 def check_is_engine_part(data: list[str], y: int, x: int, full_check: bool = True) -> bool:
