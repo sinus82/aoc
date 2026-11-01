@@ -220,4 +220,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Advent of Code example inputs
-example*.txt
+input.txt
