@@ -23,7 +23,7 @@ def solve(data: list[str]) -> tuple[int, int]:
     return total, sum(cards_count)
 
 if __name__ == "__main__":
-    data = Path("input.txt").read_text(encoding="utf-8").splitlines()
+    data = Path("example.txt").read_text(encoding="utf-8").splitlines()
     start = perf_counter()
     print(solve(data))
     end = perf_counter()

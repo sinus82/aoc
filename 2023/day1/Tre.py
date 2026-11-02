@@ -101,5 +101,5 @@ if __name__ == "__main__":
     print(solve(lines))
 
     # lines_p2 = Path("example_p2.txt").read_text(encoding="utf-8").splitlines()
-    lines_p2 = Path("input.txt").read_text(encoding="utf-8").splitlines()
+    lines_p2 = Path("example_p2.txt").read_text(encoding="utf-8").splitlines()
     print(solve2b(lines_p2))

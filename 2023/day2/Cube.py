@@ -41,8 +41,8 @@ def solve2(lines: list[str]) -> int:
     return total_sum
 
 if __name__ == "__main__":
-    data = Path("input.txt").read_text(encoding="utf-8").splitlines()
+    data = Path("example.txt").read_text(encoding="utf-8").splitlines()
     print(solve(data))
 
-    data = Path("input.txt").read_text(encoding="utf-8").splitlines()
+    data = Path("example.txt").read_text(encoding="utf-8").splitlines()
     print(solve2(data))
