@@ -4,7 +4,10 @@ from time import perf_counter
 
 def solve(data: list[str]) -> int:
     print(data)
-    return 0
+    return len(data)
+
+def solve2(data: list[str]) -> int:
+    return 2*len(data)
 
 if __name__ == "__main__":
     data = Path("input.txt").read_text(encoding="utf-8").splitlines()
