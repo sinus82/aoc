@@ -12,7 +12,7 @@ def solve1a(data: list[str]) -> int:
     total = 0
     for line in data:
         digits = [char for char in line if char.isdigit()]
-        print("digits:", digits)
+        # print("digits:", digits)
         total += int(digits[0] + digits[-1])
     return total
 
@@ -21,10 +21,10 @@ def solve2(data: list[str]) -> int:
     words = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
     digits = {str(i): i for i in range(10)}
     values = {word: index for index, word in enumerate(words, start=1)}
-    print("digits:", digits)
-    print("values:", values)
+    # print("digits:", digits)
+    # print("values:", values)
     values.update(digits)
-    print("values:", values)
+    # print("values:", values)
     numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     for line in data:
         first = (len(line)+1, -1)
