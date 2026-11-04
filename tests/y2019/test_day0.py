@@ -2,7 +2,7 @@ from y2019.day0 import solution
 from . import YEAR
 from pathlib import Path
 
-def test_part1_example_inpu2t():
+def test_part1_example_input():
     input_path = Path(__file__).parents[2] / YEAR / "day0" / "example.txt"
     data = input_path.read_text(encoding="utf-8").splitlines()
 
